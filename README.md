@@ -25,7 +25,7 @@ The repository is structured as follows:
 |	|-setup.py
 |	|-README.md
 |	|-sbi_feature_importance
-|		|-\_\_init\_\_.py
+|		|-__init__.py
 |		|-snle.py
 |		|-utils.py
 |		|-metrics.py
@@ -34,7 +34,7 @@ The repository is structured as follows:
 |		|-toymodels.py
 |		|-snpe.py
 |	|-ephys_helper
-|		|-\_\_init\_\_.py
+|		|-__init__.py
 |		|-utils.py
 |		|-hh_simulator.py
 |		|-extractor.py

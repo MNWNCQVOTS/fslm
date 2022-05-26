@@ -9,6 +9,7 @@ The necessary packages can be installed via:
 The repository is structured as follows:
 ```
 |-README.md
+|-setup.py
 |-notebooks
 |-results
 |-experiments
@@ -22,7 +23,6 @@ The repository is structured as follows:
 |	|-experiment3.sh
 |	|-experiment4.sh
 |-sbi_feature_importance
-|	|-setup.py
 |	|-README.md
 |	|-sbi_feature_importance
 |		|-__init__.py

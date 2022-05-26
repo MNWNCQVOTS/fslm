@@ -18,28 +18,26 @@ The repository is structured as follows:
 |	    |-full_experiment.py
 |	    |-experiment_presimulated.py
 |	|-run_experiments.sh
-|	|-experiment1.sh
-|	|-experiment2.sh
-|	|-experiment3.sh
-|	|-experiment4.sh
+|	|-experiment2.py
+|	|-experiment3.py
+|	|-experiment4.py
+|	|-(...)
 |-sbi_feature_importance
-|	|-README.md
-|	|-sbi_feature_importance
-|		|-__init__.py
-|		|-snle.py
-|		|-utils.py
-|		|-metrics.py
-|		|-experiment_helper.py
-|		|-analysis.py
-|		|-toymodels.py
-|		|-snpe.py
-|	|-ephys_helper
-|		|-__init__.py
-|		|-utils.py
-|		|-hh_simulator.py
-|		|-extractor.py
-|		|-features.py
-|		|-analysis.py
+	|-__init__.py
+	|-snle.py
+	|-utils.py
+	|-metrics.py
+	|-experiment_helper.py
+	|-analysis.py
+	|-toymodels.py
+	|-snpe.py
+|-ephys_helper
+	|-__init__.py
+	|-utils.py
+	|-hh_simulator.py
+	|-extractor.py
+	|-features.py
+	|-analysis.py
 ```
 
 You can find the results to our experiments [here](https://zenodo.org/record/6583713) and reproduce the figures with the provided notebooks.

@@ -3,10 +3,11 @@ This repository contains the code for reproducing results of the FSML paper [ope
 
 ## Installation
 The necessary packages can be installed via:
-``
+`pip install .`
 
 ## Usage
 The repository is structured as follows:
+```
 |-README.md
 |-notebooks
 |-results
@@ -39,6 +40,7 @@ The repository is structured as follows:
 |		|-extractor.py
 |		|-features.py
 |		|-analysis.py
+```
 
 You can find the results to our experiments [here](https://zenodo.org/record/6583713) and reproduce the figures with the provided notebooks.
 
